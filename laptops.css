@@ -1,0 +1,19 @@
+#header
+{
+    color: blue;
+    background-color: azure;
+    font-style: italic;
+    text-align: center;
+    font-size: 25px;
+}
+
+#deal
+{
+    color: red;
+    background-color: yellow;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+    padding:   10px;
+}
