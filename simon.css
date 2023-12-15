@@ -1,0 +1,115 @@
+
+body{
+    /* background-image: url("photos/wholeBG.jpg"); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    height: 100vh  
+}
+
+#wrapper
+{
+    width: 80%;
+    margin: auto;
+
+}
+
+#Header
+{
+    width: 100%;
+    min-height: 100px;
+    background-image: url(photos/printersBG.png);
+    background-size: 1000px, 1200px;
+    margin-bottom: 10px;
+
+    
+}
+
+#Nav
+{ 
+ background-color: aliceblue;
+ border-style: double;
+ border: 2px;
+ border-color: black;
+}
+#modelChoice
+    {
+        float: left;
+        /*background-color:green;*/
+        min-width: 32%;
+        height: auto;
+        text-align: center;
+        margin-bottom: 5px;
+       
+
+    }
+#priceChoice
+    {
+        float:left;
+        /*background-color: beige;*/
+        min-width: 32%;
+        height: auto;
+        text-align: center;
+        margin-bottom: 5px;
+
+    }
+
+#stockOption
+    {
+        min-width: 32%;
+        float: left;
+        /*background-color: orange;*/
+        text-align: center;
+        height: auto;
+       
+    }
+
+#Footer
+{  
+    margin-top: 10px;
+    min-height: 50px;
+    width: 100%;
+    background-color: greenyellow;
+    font-size: 10px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+  }
+  
+  .container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }

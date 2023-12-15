@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="simon.css">
+    <title>Printers</title>
+
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        .column {
+          float: left;
+          width: 33.33%;
+          padding: 5px;
+        }
+        
+        .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        </style>
+
+
+</head>
+<body>
+
+    <h1 style="text-align: center;">Printers</h1>
+    <section id="Header">
+    </section>
+
+<section id="Nav">
+
+    <form id="modelChoice">
+        <h3>Please choose model</h3>
+        <input type="checkbox" id="InkJetPick" onclick="inkJet()" value="InkJetPick">
+        <label for="InkJet">InkJet </label>
+        <br>
+        <input type="checkbox" id="LaserPick" onclick="Laser()" value="LaserPick">
+        <label for="Laser"> Laser</label>
+        <br>
+        <input type="checkbox"id="3dPick" value="3dPick" onclick="threeD()">
+        <label for="3dPick"> 3d </label>
+        <br>
+
+    </form>
+    <form id="priceChoice">
+        <h3>Price Range</h3>
+        <input type="checkbox" id="tierS" value="tierS" onclick="smallPrice()">
+        <label for="tierS">100-149 </label>
+        <br>
+        <input type="checkbox" id="tierM" value="tierM" onclick="medPrice()">
+        <label for="tierM"> 150-299</label>
+        <input type="checkbox"id="tierL" value="tierL" onclick="lrgPrice()">
+        <label for="tierL"> 300+ </label>
+        <br>
+        <br>
+    </form>
+    <form id="stockOption" class="clearfix::after">
+      <br>
+      <br>
+        <input type="button" id="mReset" value="Reset Filter" onclick="resetFilter()">
+        <br>
+        <br>
+        <h4>Newsletter </h4>
+        <label for="email">Email :</label>
+        <input type="text" id="email" name="email" value="" size="">
+        <button type="button"  onclick="clearEmail()">
+            Sign Up!
+        </button>
+        <br>
+        <br>
+    </form>
+</section>
+
+
+<section id="inkJet" >
+<div class="row">
+    <div class="column container" id="inkJet1">
+      <img src="photos/inkjet1.webp"  style="width:100%">
+      <div class="overlay">
+        <div class="text">
+         <h2> Canon Pixma TS3355 </h2>
+         <button type="button" onclick="addToCart()">
+          Add to cart.
+      </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="column container" id="inkjet2">
+      <img src="photos/inkjet2.webp"  style="width:100%">
+      <div class="overlay">
+        <div class="text">
+         <h2> HP DeskJet 2710e Wireless  </h2>
+         <button type="button" onclick="addToCart()">
+          Add to cart.
+      </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="column container" id="inkJet3" onclick="addToCart()">
+      <img src="photos/inkjet3.webp" style="width:100%">
+      <div class="overlay">
+        <div class="text" >
+         <h2> EPSON EcoTank ET-2820 </h2>
+          <br>
+          <button type="button" onclick="addToCart()">
+            Add to cart.
+        </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="laser">
+    <div class="row">
+    <div class="column container">
+      <img src="photos/laser1.webp" id="laser1" style="width:100%">
+      <div class="overlay">
+        <div class="text" >
+         <h2>Brothers laser printer </h2>
+          <br>
+          <button type="button" onclick="addToCart()">
+            Add to cart.
+        </button>
+    </div>
+      </div>
+    </div>
+
+    <div class="column container">
+      <img src="photos/laser2.webp" id="laser2" style="width:100%">
+      <div class="overlay">
+        <div class="text" >
+         <h2> HP laser printer </h2>
+          <br>
+          <button type="button" onclick="addToCart()">
+            Add to cart.
+        </button>
+    </div>
+  </div>
+</div>
+
+    <div class="column container">
+      <img src="photos/laser3.webp" id="laser3" style="width:100%">
+      <div class="overlay">
+        <div class="text" >
+         <h2>HP legendary laser printer </h2>
+          <br>
+          <button type="button" onclick="addToCart()">
+            Add to cart.
+        </button>
+    </div>
+  </div>
+</div>
+</section>
+
+<section id="threeD">
+    <div class="row ">
+        <div class="column container">
+          <img src="photos/3d1.jpg" id="3d1" style="width:100%">
+          <div class="overlay">
+            <div class="text" >
+             <h2>Flashforge Adventurer 5M 3D  </h2>
+              <br>
+              <button type="button" onclick="addToCart()">
+                Add to cart.
+            </button>
+        </div>
+      </div>
+        </div>
+        <div class="column container">
+          <img src="photos/3d2.jpg" id="3d2" style="width:100%">
+          <div class="overlay">
+            <div class="text" >
+             <h2>Creality Ender-3 SE 3D </h2>
+              <br>
+              <button type="button" onclick="addToCart()">
+                Add to cart.
+            </button>
+        </div>
+      </div>
+        </div>
+        <div class="column container">
+          <img src="photos/3d3.jpg" id="3d3" style="width:100%">
+          <div class="overlay">
+            <div class="text" >
+             <h2>Anycubic Photon Mono X2</h2>
+              <br>
+              <button type="button" onclick="addToCart()">
+                Add to cart.
+            </button>
+        </div>
+      </div>
+        </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+    <script src="simon.js"></script>
+</section>
+</body>
+</html>
