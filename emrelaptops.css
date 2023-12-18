@@ -1,0 +1,231 @@
+#laptops
+{
+    background-color: black;
+    color: #ffb700;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    width: 15%;
+    height: 170px;
+    float: left;
+    box-sizing: border-box;
+    padding: 1%;
+}
+
+#laptops2
+{
+    background-color: black;
+    box-sizing: border-box;
+    color: #ffb700;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    width: 68%;
+    height: 170px;
+    float: left;
+    text-align: center;
+    padding: 1%;
+}
+
+#laptops3
+{
+    background-color: black;
+    box-sizing: border-box;
+    color: #03a0e2;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    height: 170px;
+    width: 10%;
+    float: left;
+    text-align: center;
+    padding: 1%;
+}
+
+#laptops4
+{
+    background-color: black;
+    box-sizing: border-box;
+    color: #ffb700;
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    width: 100%;
+    float: left;
+}
+
+
+#laptops5
+{
+    background-color: black;
+    box-sizing: border-box;
+    color: #ffb700;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    width: 7%;
+    height: 170px;
+    float: right;
+    padding: 1%;
+}
+
+
+#products
+{
+    background-color: #03a0e2;
+    box-sizing: border-box;
+    color: white;
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+
+#products1
+{
+    background-color:white;
+    width: 100%;
+    margin-left: 5%;
+    margin-top: 80px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+
+.productdetail
+{
+    float: left;
+    width: 26%;
+    margin-left: 3%;
+    box-sizing: border-box;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-bottom: 10%;
+}
+
+.productdetail2
+{
+    float: left;
+    width: 26%;
+    margin-left: 7%;
+    box-sizing: border-box;
+    margin-right: 7%;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-bottom: 10%;
+}
+
+
+.productdetail3
+{
+    float: right;
+    width: 26%;
+    box-sizing: border-box;
+    margin-right: 3%;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-bottom: 10%;
+}
+
+.clearfix::after{
+    clear: both;
+    display: block;
+    content:"";
+}
+
+.brand
+{
+    font-size: 30px;
+    text-align: center;
+}
+
+.sections
+{
+    width: 100%;
+}
+
+#about
+{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    color: black;
+
+}
+
+#aboutname
+{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    color: rebeccapurple;
+}
+
+#buttons
+{
+    color: green;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: azure;
+    padding: 20px;
+    border-style:double ;
+    margin-top: 15px;
+    border-color: greenyellow;
+}
+
+
+#buttons1
+{
+    color: red;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: burlywood;
+    padding: 20px;
+    border-style:double ;
+    margin-top: 15px;
+    border-color: red;
+}
+
+#buttons:hover
+{
+    background-color: darkgreen;
+    color: white;
+}
+
+#buttons1:hover
+{
+    background-color: darkred;
+    color: white;
+}
+
+#buttons:focus
+{
+    background-color: darkgreen;
+    color: white
+}
+
+#buttons1:focus
+{
+    background-color: darkred;
+    color: white;
+
+}
+
+#copy
+{
+    color: black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: solid;
+}
+
+.buttonclass
+{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.buttonclass:hover
+{
+    color:#03a0e2;
+}

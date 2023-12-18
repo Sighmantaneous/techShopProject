@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="logo.jpg">
+    <link rel="stylesheet" href="laptops.css">
+    <title>Laptops</title>
+</head>
+<body>
+    <div id="laptops"> <img src="logo.jpg" width="50%"> </div>
+    <div id="laptops2"> <p> LAPTOP SECTION </p></div>
+    <div id="laptops3"> <p>Basket A. </div>
+    <div id="laptops5"> <p id="price"> 0 €</p></div>
+    <div id="laptops4"> 
+    <nav>
+        <p style="float: left; margin-left: 5%;" ><a href="#applenav" class="buttonclass" >APPLE</a></p>
+        <p style="float: left; margin-left: 40%;"><a href="#acernav" class="buttonclass" >ACER</a></p>
+        <p style="float: right; margin-right: 5%;" ><a href="#hpnav" class="buttonclass" >HP</a></p>
+    </nav>
+    </div>
+    <div id="products" style="text-align: center; margin-bottom: 5%;"> Products</div>
+
+<div class="clearfix"></div>
+
+<section id="applenav">
+    <p id="aboutname"> APPLE PRODUCTS</p>
+    <p id="about" style="margin-bottom: 5%;">Fully loaded. Get started with apps you’ll use every day, like Mail, Calendar,
+         and Safari for surfing the web.
+         <br>
+          And if you want to create documents, spreadsheets or presentations,
+          there are powerful built-in productivity apps like Pages, Numbers and Keynote.
+          <br> <br>
+          If you like to have more information about the Apple Products you can click <a href="https://www.apple.com/macbook-air/" target="_blank"> here </a>
+    </p>
+
+
+    <div  class="productdetail">
+        <img src="1.jpg" alt="Rosegold Macbook" width="100%">
+        <p>MacBook Air 13.3 inch, Rose Gold</p> <p><b>599 €</b></p>
+        <input type="button" value="Add to Basket" id="buttons" onclick="basket1()" styles="float: left;">
+        <input type="button" value="Remove from Basket" id="buttons1" onclick="basket599r()" style="float: right;">
+    </div>
+    <div  class="productdetail2">
+        <img src="2.jpg" alt="Black Macbook" width="100%">
+         <p>MacBook Air 13.3 inch, Night Blue</p> <p><b>650 €</b></p>
+         <input type="button" value="Add to Basket" id="buttons" onclick="basket2()">
+         <input type="button" value="Remove from Basket" id="buttons1" onclick="basket650r()" style="float: right;">
+    </div>
+    <div class="productdetail3">
+        <img src="3.jpg" alt="Grey Macbook" width="100%"  >
+        <p>MacBook Air 13.3 inch, Rose Gold </p> <p><b>750 €</b></p>
+        <input type="button" value="Add to Basket" id="buttons" onclick="basket3()">
+        <input type="button" value="Remove from Basket" id="buttons1" onclick="basket750r()" style="float: right;">
+    </div>
+</section>
+
+<div class="clearfix"></div>
+
+<section id="acernav">
+<p id="aboutname"> ACER PRODUCTS</p>
+<p id="about" style="margin-bottom: 5%;">They've made laptops ranging from lightweight Chromebooks to powerful Ultrabooks to striking computers and gaming laptops. 
+    <br>
+    Affordability remains the most attractive feature of laptops designed by Acer.<br>
+     Apart from having a reasonable consumer price, they don't compromise on the quality, performance or dependability.
+    <br><br>
+      If you like to have more information about the Acer Products you can click <a href="https://www.acer.com/corporate/en" target="_blank"> here </a>
+</p>
+
+    <div  class="productdetail">
+        <img src="acer1.jpg" alt="Rosegold Macbook" width="100%">
+        <p>Acer 13.3 inch, Silver Grey</p><p><b>599 €</b></p>
+        <input type="button" value="Add to Basket" id="buttons" onclick="basket4()">
+        <input type="button" value="Remove from Basket" id="buttons1" onclick="basket599r2()" style="float: right;">
+    </div>
+    <div  class="productdetail2">
+        <img src="acer2.jpg" alt="Black Macbook" width="100%">
+         <p>Acer 13.3 inch, Gaming Laptop</p><p><b>650 €</b></p>
+         <input type="button" value="Add to Basket" id="buttons" onclick="basket5()">
+         <input type="button" value="Remove from Basket" id="buttons1" onclick="basket650r2()" style="float: right;">
+    </div>
+    <div class="productdetail3">
+        <img src="acer3.jpg" alt="Grey Macbook" width="100%"  >
+        <p>Acer 13.3 inch, Black Laptop</p><p><b>750 €</b></p>
+        <input type="button" value="Add to Basket" id="buttons" onclick="basket6()">
+        <input type="button" value="Remove from Basket" id="buttons1" onclick="basket750r2()" style="float: right;">
+    </div>
+</section>
+<div class="clearfix"></div>
+
+<section id="hpnav">
+<p id="aboutname"> HP PRODUCTS</p>
+<p id="about" style="margin-bottom: 5%;">Its combination of performance, lightweight, and budget price is very hard to beat,
+    <br> making it an excellent choice for those on a budget who only need a laptop to handle the basics and enjoy some content
+    <br><br>
+      If you like to have more information about the Acer Products you can click <a href="https://www.hp.com/ie-en/hp-information.html" target="_blank"> here </a>
+</p>
+
+    <div  class="productdetail">
+        <img src="hp1.jpg" alt="Rosegold Macbook" width="100%">
+        <p>HP 13.3 inch, Black Laptop</p><p><b>599 €</b></p>
+        <input type="button" value="Add to Basket" id="buttons" onclick="basket7()">
+        <input type="button" value="Remove from Basket" id="buttons1" onclick="basket599r3()" style="float: right;">
+    </div>
+    <div  class="productdetail2">
+        <img src="hp2.jpg" alt="Black Macbook" width="100%">
+         <p>HP  13.3 inch, Grey Laptop</p><p><b>650 €</b></p>
+         <input type="button" value="Add to Basket" id="buttons" onclick="basket8() ">
+         <input type="button" value="Remove from Basket" id="buttons1" onclick="basket650r3()" style="float: right;">
+    </div>
+    <div class="productdetail3">
+        <img src="hp5.jpg" alt="Grey Macbook" width="100%"  >
+        <p>HP 13.3 inch, Silver Grey</p><p><b>750 €</b></p>
+        <input type="button" value="Add to Basket" id="buttons" onclick="basket9()" style="float: left;">
+        <input type="button" value="Remove from Basket" id="buttons1" onclick="basket750r3()" style="float: right;">
+    </div>
+</section>
+
+<div class="clearfix"></div>
+
+    <div id="copy">
+        <p>© Copyright 2023 LAPTOPS</p>
+    </div>
+
+<script src="laptoppage.js"> </script>
+</body>
+</html>
