@@ -41,7 +41,7 @@ function medPrice()
         document.getElementById("tierS").checked = false;
         document.getElementById("tierL").checked = false;
         document.getElementById("laser1").style.visibility="hidden"
-        document.getElementById("inket1").style.visibility="hidden"
+        document.getElementById("inkjet1").style.visibility="hidden"
         document.getElementById("inkjet2").style.visibility="hidden"
         document.getElementById("3d2").style.visibility="hidden"
         document.getElementById("3d3").style.visibility="hidden"
@@ -50,8 +50,12 @@ function lrgPrice()
     {
         document.getElementById("tierS").checked = false;
         document.getElementById("tierM").checked = false;
-        document.getElementById("threeD2").style.display = "none";
-        document.getElementById("laser3").style.display = "none" ;
+        document.getElementById("laser1").style.visibility="hidden"
+        document.getElementById("inket2").style.visibility="hidden"
+        document.getElementById("inkjet1").style.visibility="hidden"
+        document.getElementById("laser1").style.visibility="hidden"
+        document.getElementById("laser2").style.visibility="hidden"
+    
 
 
     }
